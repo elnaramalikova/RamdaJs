@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    padding: 20px 20px 10px 0;
+    font-family: ﻿AdobeInvisFont, ﻿Courier, ﻿MyriadPro-Regular;
+    font-size: 20pt;
+    text-align:left;
+}
+a span{
+    color: #4bcaff;
+}
+.navigation{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #35444f;
+    text-align: center;
+    margin: 0 0 30px -20px;
+    display: inline-block
+}
+.navigation a{
+    text-decoration: none;
+    font-family: ﻿AdobeInvisFont, ﻿Courier, ﻿MyriadPro-Regular;
+    font-size: 24px;
+    color: #bcc1c4;
+    padding: 15px 30px;
+}
+.navigation a:hover{
+    background-color: #222f3a;
+    border-left: 1px solid #818181;
+    border-right: 1px solid #818181;
+}
+.main-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.side-bar{
+    width: 20%;
+    border: 1px solid gray;
+    height: 22%;
+}
+.side-bar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #495863;
+    display: block;
+    padding: 18px 20px;
+}
+.side-bar a:hover{
+    background-color: #dbdbdb;
+    color: black;
+    padding-left: 30px;
+}
+.article{
+    width: 75%;
+}
+.img{
+    border: 1px solid gray;
+}
+img{
+    width: 300px;
+    height: 300px;
+    padding: 70px 280px;
+}
+img:hover{
+    transition: 2s;
+    width: 350px;
+}
+.content-text{
+    padding: 30px;
+}
+.clear{
+    clear: both;
+}
+footer{
+    height: 60px;
+    width: 1280px;
+    margin: 0 auto 50px auto;
+    background-color: #b4b7ba;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .links{  
+    width: 75%;
+   padding: 18px 0;
+}
+footer .text{
+    width: 15%;
+    font-family: ﻿AdobeInvisFont, ﻿Courier, ﻿MyriadPro-Regular;
+    font-size: 24px;
+    color: rgba(1, 1, 1, 255);
+    padding: 19px;    
+}
+.links a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: #0c1927;
+}
+.links a:hover{
+    color: #3181a6;
+    border-bottom: 1px solid #3181a6;
+    padding-bottom: 2px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
